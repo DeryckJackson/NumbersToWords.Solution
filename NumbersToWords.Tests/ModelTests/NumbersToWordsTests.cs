@@ -11,5 +11,11 @@ namespace NumbersToWords.Tests
     {
       Assert.AreEqual("one", NumsToWords.OnesConverter('1'));
     }
+
+    [TestMethod]
+    public void TeensConverter_13EqualsThirteen_True()
+    {
+      Assert.AreEqual("Thirteen", NumsToWords.TeensConverter('13'));
+    }
   }
 }
