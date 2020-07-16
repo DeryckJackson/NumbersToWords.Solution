@@ -1,53 +1,55 @@
-# _Currency Exchanger_
+# Numbers To Words
 
-#### _Week 6 project at Epicodus, 7/3/2020_
+#### Latest version date 2020/07/16
 
-#### By _**Spencer Moody**_
+#### By Deryck Jackson, Spencer Moody, Sean Downs
 
 ## Description
+Create a console app that translates numbers in numeric form into written words.
 
-_This is an application that will take a users inputted amount (in USD) and outputs a converted amount for the selected country._
+## Specifications
 
-## Specs
+1. **Behavior:** The user will be able to input a single number in the console and the return will be number spelled out.
+    * **Input Example:** 1
+    * **Output Example:** one
 
-| Spec | Input | Output |
-| :-------------      | :------------- | :------------- |
-| ** 1. The program will allow the user to enter an amount in USD | 100 | -- |
-| ** 2. The program will allow the user to select the currency they would like to convert to | EUR | EUR |
-| ** 3. The program will return an error message if the user trys to convert to a currency that is not supported | "something" | "Currency does not exist, please try a different currency" |
-| ** 4. The program will return the converted currency | 100 USD | 88.94 EUR |
-| ** 5. The program will allow the user to convert between all currencies | EUR | USD |
+2. **Behavior:** The user will be able to input a two-digit number in the console and the return will be number spelled out.
+    * **Input Example:** 74 
+    * **Output Example:** seventy-four
 
-## Setup/Installation Requirements
+3. **Behavior:** 
+    * **Input Example:** 4876128936234
+    * **Output Example:** four trillion eight-hundred and seventy-six billion one-hundred and twenty-eight million nine-hundred and thirty-six thousand two-hundred and thirty-four
 
-* _Clone or download this repository located at https://github.com/smoody0208/week-6-project_
-* _Visit https://www.exchangerate-api.com/ and enter your email address to receive a free API key_
-* _In your terminal navigate to the cloned or downloaded repository_
-* _Create a .env file in the projects root directory_
-* _Add the following to your .env file: API_KEY = YOUR UNIQUE API KEY GOES HERE_
-* _Run $ npm run install to download all dev dependencies_
-* _Run $ npm run build to create a dist folder_
-* _Run $ npm run start to to view the project in your browser_
+## Setup and Installation
 
-## Known Bugs
+Software Requirements
+1. .NET framework
+2. A code editor (Visual Studio Code, Atom, etc.)
 
-_No known bugs_
+Acquire The Repo:
+1. Click the 'Clone or Download Button
+2. Alternately, Clone via Bash/GitBash: `git clone {repo}`
 
-## Support and contact details
+Editting the Code Base:
+1. Open the project in your code editor; with Bash, this is done by navigating to the project directory, then `code .`
+2. If you wish to run testing, you'll need the testing packages: navigate into the .Tests folder, and run `dotnet restore`
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+Running the program:
+1. To run the program, you'll need to compile the code: `dotnet build`. This will create a compiled application in the bin/ folder.
+2. Alternately, you can run the program directly with `dotnet run`.
 
-## Technologies Used
+## Bugs
 
-* _GitHub_
-* _HTML_
-* _CSS_
-* _BootStrap_
-* _Visual Studio Code_
-* _JavaScript_
-* _jQuery_
-* _Node_
+No bugs
+
+## Tech used
+
+* C#
+* .NET
 
 ### License
 
-*Copyright (c) 2020 **_Spencer Moody MIT_***
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+Copyright (c) 2020 Deryck Jackson, Spencer Moody, Sean Downs
